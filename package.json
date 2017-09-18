@@ -1,0 +1,17 @@
+{
+  "name": "opensshpubkeyparser",
+  "version": "1.0.0",
+  "description": "JS library to parse RSA publicKeys in OpenSSH format to RSA modulus n and exponent e",
+  "main": "parse.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node node_sample.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "window": "^4.2.0",
+    "node-forge": "^0.7.1"
+  }
+}
