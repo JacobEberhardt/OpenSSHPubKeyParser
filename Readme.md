@@ -19,7 +19,7 @@ npm i opensshpubkeyparser
 ```
 and require the module:
 ```
-parseOpenSSHPubKey = require('parseOpenSSHPubKey');
+var parser = require('opensshpubkeyparser');
 ```
 
 An example can be found in `node_sample.js`.
