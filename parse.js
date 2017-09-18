@@ -16,8 +16,7 @@ function parsePublicKey(s) {
   var exponent = buffer.splice(0, exponentLen);
   var keyLen = arrayToLen(buffer.splice(0, 4));
   var key = buffer.splice(0, keyLen);
-  console.log(nameLen);
-  return {type: type, exponent: exponent, modulus: key, name: split[2].trim()};
+  return {type: type, exponent: exponent, modulus: key, name: split[2]};
 }
 
 // utitilty functions
