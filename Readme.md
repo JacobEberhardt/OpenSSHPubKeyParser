@@ -1,4 +1,4 @@
-# parseOpenSSHPubKey
+# OpenSSHPubKeyParser
 
 This is a little utility, which parses OpenSSH RSA public keys in pure javascript and returns modulus `n` and exponent `e`.
 
@@ -15,7 +15,7 @@ https://github.com/PatrickRoumanoff/js-keygen
 ## Use as Node.js module
 Simply install the npm package:
 ```
-npm install parseOpenSSHPubKey
+npm i opensshpubkeyparser
 ```
 and require the module:
 ```
